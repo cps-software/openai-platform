@@ -1,2 +1,6 @@
-.zig-cache/
-zig-out/
+# macOS Files
+.DS_Store
+
+# App Secrets
+apikey.php
+
