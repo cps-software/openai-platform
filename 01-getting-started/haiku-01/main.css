@@ -2,3 +2,9 @@ body {
   background-color: #e5e5e5;
   color: darkgreen;
 }
+
+h1 {
+  color: #e5e5e5;
+  background-color: darkgreen;
+  padding-left: 8px;
+}

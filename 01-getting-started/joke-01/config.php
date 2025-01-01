@@ -17,7 +17,7 @@ define('DATA', [
   'messages' => [
     [
       'role' => 'system',
-      'content' => 'You are a helpful assistant.',
+      'content' => 'You are a funny assistant.',
     ],
     [
       'role' => 'user',

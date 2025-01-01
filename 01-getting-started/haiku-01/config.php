@@ -3,7 +3,8 @@
 |----------------------------------------------------------------------
 | config.php
 |----------------------------------------------------------------------
-| Configuration value constants
+| Configuration values as constants
+| Includes the prompt info sent to the API
 */
 
 // secret info not under source control (get from a teammate)

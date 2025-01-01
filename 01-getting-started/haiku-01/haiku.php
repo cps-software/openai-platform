@@ -4,6 +4,7 @@
 | haiku.php
 |----------------------------------------------------------------------
 | Function to make call to OpenAPI model to prompt and get response
+| Return response (a string formatted as JSON) caller
 */
 
 require_once './config.php';

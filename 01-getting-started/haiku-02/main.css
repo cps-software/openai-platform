@@ -1,4 +1,10 @@
 body {
-  background-color: #e5e5e5;
-  color: darkgreen;
+  background-color: darkblue;
+  color: lightgoldenrodyellow;
+}
+
+h1 {
+  color: darkblue;
+  background-color: lightgoldenrodyellow;
+  padding-left: 8px;
 }

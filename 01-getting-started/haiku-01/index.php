@@ -5,8 +5,10 @@
 |----------------------------------------------------------------------
 | Make a call to OpenAI module to get a response to a prompt.
 | Use the PHP curl class.
+| Display results as a webpage.
 */
 
+// function that performs the work to communicate with OpenAI
 require_once './haiku.php';
 
 $haikuPoem = get_haiku();

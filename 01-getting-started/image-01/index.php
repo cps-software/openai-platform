@@ -33,6 +33,7 @@ $messageText = $messageJSON['data'][0]['url'];
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <link rel="stylesheet" href="main.css">
   <title>Gray Cat</title>
 </head>
 

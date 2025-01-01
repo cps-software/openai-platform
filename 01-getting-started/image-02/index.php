@@ -33,12 +33,13 @@ $messageText = $messageJSON['data'][0]['url'];
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <link rel="stylesheet" href="main.css">
   <title>Man with Cat</title>
 </head>
 
 <body>
   <header>
-    <h1>Man with Cat</h1>
+    <h1>60 Year Old Man with Cat in Lap</h1>
   </header>
   <main>
     <p><?= '<img src="' . $messageText . '" height="45px"></img>' ?></p>
