@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Include the CSS code here */
+    .columns {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -0.75rem;
+      margin-right: -0.75rem;
+    }
+
+    .column {
+      padding: 0.75rem;
+    }
+
+    .is-one-third {
+      width: 33.3333%;
+      flex: none;
+    }
+
+    .box {
+      background-color: white;
+      border: 1px solid #dbdbdb;
+      border-radius: 4px;
+      box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+      padding: 1.25rem;
+    }
+  </style>
+  <title>Simulating Bulma's is-one-third</title>
+</head>
+
+<body>
+  <div class="columns">
+    <div class="column is-one-third">
+      <div class="box">
+        <h1>One Third Column</h1>
+        <p>This column takes up one-third of the container's width.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="box">
+        <h1>Default Column</h1>
+        <p>This column takes up the remaining space.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

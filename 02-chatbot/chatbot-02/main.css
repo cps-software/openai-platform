@@ -1,0 +1,262 @@
+/*
+|----------------------------------------------------------------------
+| main.css
+|----------------------------------------------------------------------
+| Replacing Bulma CSS library with vanilla styling
+*/
+
+:root {
+  --primary-background-color: white;
+  --primary-font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  font-family: var(--primary-font-family);
+}
+
+/* Simulating Bulma's Section class */
+.section {
+  padding: 3rem 1.5rem;
+}
+
+/* Simulating Bulma's Container class */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+}
+
+/* Simulating Bulma's Columns class */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.column {
+  flex: 1;
+  padding: 0.75rem;
+}
+
+/* Simulating Bulma's Box class */
+.box {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+  padding: 1.25rem;
+}
+
+/* Simulating Bulma's has-text-centered class */
+.has-text-centered {
+  text-align: center;
+}
+
+/* Simulating Bulma's card-content class */
+.card-content {
+  padding: 1.5rem;
+  background-color: white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+/* Simulating Bulma's h1 style*/
+h1 {
+  color: #363636;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 1.5rem;
+}
+
+/* Simulating Bulma's title class */
+.title {
+  color: #363636;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 1.5rem;
+}
+
+/* Simulating Bulma's content class */
+.content {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4a4a4a;
+  padding: 1.5rem;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  color: #363636;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+.content ul,
+.content ol {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Simulating Bulma's message class */
+.message {
+  background-color: #f5f5f5;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.message-header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dbdbdb;
+  border-radius: 4px 4px 0 0;
+  color: #4a4a4a;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+}
+
+.message-body {
+  padding: 1.25rem 1.5rem;
+  color: #4a4a4a;
+}
+
+/* Simulating Bulma's is-narrow modifier */
+.is-narrow {
+  flex: none;
+}
+
+/* Simulating Bulma's button class */
+.button {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.5em 1em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #f5f5f5;
+  color: #363636;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.button:hover {
+  background-color: #e6e6e6;
+  border-color: #b5b5b5;
+  color: #363636;
+}
+
+/* Simulating Bulma's is-info modifier*/
+.button.is-info {
+  background-color: #209cee;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-info:hover {
+  background-color: #1084d0;
+  border-color: transparent;
+  color: #fff;
+}
+
+/* Simulating Bulma's is-hidden modifier */
+.is-hidden {
+  display: none;
+}
+
+/* Simulating Bulma's input class */
+.input {
+  box-shadow: none;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: 0.5em 0.75em;
+  font-size: 1rem;
+  color: #363636;
+  /* background-color: white; */
+  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 95%;
+  line-height: 1.5;
+}
+
+.input:focus {
+  border-color: #3273dc;
+  box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+}
+
+/* Simulating Bulma's notification class */
+.notification {
+  padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  position: relative;
+  background-color: #f5f5f5;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
+}
+
+/* Simulating Bulma's is-one-third modifier*/
+.is-one-third {
+  width: 33.3333%;
+  flex: none;
+}
+
+/* Simulating Bulma's is-loading for buttons */
+.button.is-loading {
+  position: relative;
+  pointer-events: none;
+}
+
+.button.is-loading::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+  border: 2px solid transparent;
+  border-top-color: currentColor;
+  border-right-color: currentColor;
+  border-radius: 50%;
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* my style for user message background color */
+.user-message {
+  background-color: #F2F9FF;
+}
+
+/* my style for bot message background color */
+.bot-message {
+  background-color: #FEF9D9;
+}
